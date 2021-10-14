@@ -3,9 +3,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} 
+}
+.back{
+    z-index:-1;
+    position: relative;
+    left:0px;
+    top:-400px;
+}
 .svg{
   z-index:-1;
+  width: fit-content;
 }
 
 
@@ -15,6 +22,9 @@
     --background:#FF7400;
     
     
+  }
+  h2,h3{
+      color:blue;
   }
   .header{
     display:grid;
@@ -35,17 +45,22 @@
   list-style: none;
 }
 .content{
-  margin-top:10vh;
+  margin-top:-50vh;
   display:grid;
   grid-template-columns:1fr 1fr;
+  
   
 }
 
   .button-cont{
       display:grid;
-      grid-template-columns:1fr 1fr;
-      grid-template-rows: 2fr;
+      grid-template-rows:1fr 1fr;
+     
       
+  }
+  .bt{
+      display:grid;
+      grid-template-columns:1fr 1fr;
   }
 
 
@@ -57,12 +72,15 @@
       padding:24px 44px;
       height:10vh;
       width:29vh;
+      display:grid;
+      grid-template-rows:1fr 1fr;
       font-family: 'Nunito Sans', sans-serif;
       border-radius:10px;
       font-size: xx-large; 
       font-weight:bold;
       margin-right:10px;
   }
+  
   .button:hover{
       transition:delay 0.5s;
       transition-timing-function: ease;
