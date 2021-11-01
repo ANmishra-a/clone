@@ -316,7 +316,7 @@ p{
 
 
 }
-#peragraph{
+#paragraph{
     font-weight: bold;
     padding-top:40px;
     font-size: 1.05rem;
@@ -329,4 +329,88 @@ p{
     display:grid;
     grid-template-columns:1fr 1fr;
 }
- 
+ /*style  calculate, benefit and feature */
+.pitch{
+   margin-top:100px;
+   display:grid;
+   grid-template-columns:1fr 1fr;
+   height:500px;
+   margin-bottom:100px;
+  
+}
+#calculation-box{
+    word-wrap: break-word;
+    width:60%;
+    text-align: center;
+    margin-left:25%;
+    color:white;
+    box-shadow: 20px 20px 20px  rgb(72 73 121 / 15%);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#FF7400;
+    border-radius:15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#pitch-line{
+     font-size:15px;
+    font-weight:bolder;
+}
+#pitch-input{
+    height:50px;
+    border-radius:10px;
+    border:none;
+    
+}
+#show-me{
+    background-color:white; 
+    height:60px;
+    width:100px;
+    border: transparent;
+    border-radius: 30px; 
+    color:#ff7b00;
+    font-size:20px;
+    font-weight: bold;
+}
+#you-can{
+    font-weight:bolder;
+    font-size:20px;
+}
+.pitch-info{
+    
+    word-wrap: break-word;
+    width:60%;
+    text-align:start;
+    margin-right:25%;
+
+}
+#benefit{
+    border:transparent;
+    height:60px;
+    width:200px;
+    box-shadow: 7px 5px 30px rgb(72 73 121 / 15%);
+    font-size: large;
+    border-radius: 10px;
+    margin-top:40px;
+
+}
+#benefit:active{
+    background: linear-gradient(
+120deg,#5ad0ff 0%,#3224e9 100%);
+    color:white;
+}
+#feature{
+    border:transparent;
+    height:60px;
+    width:200px;
+    box-shadow: 7px 5px 30px rgb(72 73 121 / 15%);
+    font-size: large;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-left:50px;
+    
+}
+#feature:active {  background: linear-gradient(
+    120deg,#5ad0ff 0%,#3224e9 100%);
+        color:white;}
